@@ -2,6 +2,16 @@ body {
   font-family: "Roboto", sans-serif;
   color: var(--text-grey-color);
 }
+h1,h2,h3,h4,h5,h6,p{
+  margin: 0;
+  }
+ul{
+  margin: 0;
+  padding-left: 0; 
+}
+button{
+  cursor: pointer;  
+}
 :root {
   --text-grey-color: #2e2f42;
   --color-white-color: #ffffff;
@@ -72,6 +82,11 @@ body {
 }
 .section-one {
   background: var(--text-grey-color);
+}
+.section-two
+.section-three
+.section-four{
+  background: #F4F4FD;
 }
 .button {
   font-family: "Roboto", sans-serif;
@@ -249,4 +264,10 @@ body {
   flex: none;
   order: 1;
   flex-grow: 0;
+}
+.conteiner{
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin:0 auto;
 }
