@@ -25,6 +25,11 @@ button {
 .link {
   list-style-type: none;
 }
+img{
+max-width: 100%;
+height: auto;
+display: block;
+}
 /* -----------------HEADER */
 .main-nav {
   display: flex;
